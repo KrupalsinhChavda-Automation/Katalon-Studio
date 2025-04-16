@@ -1,0 +1,23 @@
+// Get the TestObject
+TestObject to = findTestObject('Test Objects/Pages/Login Page/elEmail')
+
+//Change value of CSS selector
+to.setSelectorValue(SelectorMethod.CSS, 'your_desired_value')
+
+//Change selection method from another selector to CSS selector
+to.setSelectorMethod(SelectorMethod.CSS)
+
+// This verification still pass because of using original locator
+WebUI.verifyElementPresent(findTestObject('Test Objects/Pages/Login Page/elEmail'), 0)
+
+try {
+	// This verification should be failed due to wrong css 'your_desired_value'
+	WebUI.verifyElementPresent(to, 0)
+} catch (Exception e) {
+	println '====>' + e.message
+}
+
+to = WebUI.modifyObjectProperty(findTestObject('Test Objects/Pages/Login Page/elEmail'), 'css', 'equals', 'input[name=\'loginfmt\']', true)
+
+// This verification still pass because of using updated locator
+WebUI.verifyElementPresent(to, 0)

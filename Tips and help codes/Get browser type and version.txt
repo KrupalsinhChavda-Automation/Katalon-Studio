@@ -1,0 +1,37 @@
+
+
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebDriver
+
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+WebDriver driver = DriverFactory.getWebDriver()
+        String userAgent = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;")
+        
+        String browserType = ""
+        String browserVersion = ""
+        
+        if (userAgent.contains("Chrome")) {
+            browserType = "Chrome"
+            browserVersion = userAgent.substring(userAgent.indexOf("Chrome/") + 7, userAgent.indexOf(" Safari/"))
+        } else if (userAgent.contains("Firefox")) {
+            browserType = "Firefox"
+            browserVersion = userAgent.substring(userAgent.indexOf("Firefox/") + 8)
+        } else if (userAgent.contains("MSIE") || userAgent.contains("Trident")) {
+            browserType = "Internet Explorer"
+            browserVersion = userAgent.contains("MSIE") ?
+                             userAgent.substring(userAgent.indexOf("MSIE ") + 5, userAgent.indexOf(";")) :
+                             userAgent.substring(userAgent.indexOf("rv:") + 3, userAgent.indexOf(")"))
+        } else if (userAgent.contains("Edge")) {
+            browserType = "Edge"
+            browserVersion = userAgent.substring(userAgent.indexOf("Edge/") + 5)
+        } else if (userAgent.contains("Safari") && !userAgent.contains("Chrome")) {
+            browserType = "Safari"
+            browserVersion = userAgent.substring(userAgent.indexOf("Version/") + 8, userAgent.indexOf(" Safari"))
+        } else {
+            browserType = "Unknown"
+            browserVersion = "Unknown"
+        }
+        
+        println("Browser Type: " + browserType)
+        println("Browser Version: " + browserVersion)
