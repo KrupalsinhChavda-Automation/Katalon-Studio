@@ -4,5 +4,6 @@
    <name>Test Demo for Mobile Automation using Manual Mode</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>862f731e-118c-4e33-926c-3be8f46da3c9</testCaseGuid>
 </TestCaseEntity>

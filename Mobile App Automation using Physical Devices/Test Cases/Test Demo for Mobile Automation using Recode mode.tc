@@ -4,5 +4,6 @@
    <name>Test Demo for Mobile Automation using Recode mode</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>38078c06-908d-494b-a460-bdafc57b349b</testCaseGuid>
 </TestCaseEntity>

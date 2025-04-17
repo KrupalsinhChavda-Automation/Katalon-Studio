@@ -17,8 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 // Start Mobile Application
-Mobile.startApplication('C:\\Users\\lenovo\\Katalon Studio\\Test Demo for Mobile Automation using Physical Devices\\Moveit.apk', 
-    true)
+String projectPath = System.getProperty("user.dir");
+System.out.println("Project Path: " + projectPath);
+Mobile.startApplication(projectPath + '\\Moveit.apk', true)
 
 // Enter Username
 Mobile.setText(findTestObject('Recode mode/android.widget.EditText0 - managerccs'), 'manager@ccs', 10)

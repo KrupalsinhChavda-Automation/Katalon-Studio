@@ -4,8 +4,12 @@
    <name>Test Demo for Mobile Automation using Physical Devices</name>
    <tag></tag>
    <UUID>d1d1ecc2-03ad-469b-b0d1-a68e4acbc979</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>K:\Krupal_QA\Katalon\Katalon-Studio\Mobile App Automation using Physical Devices\Test Demo for Mobile Automation using Physical Devices.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,5 +28,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>MOBILE</type>
 </Project>
