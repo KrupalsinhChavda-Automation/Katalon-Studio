@@ -22,9 +22,9 @@ import io.appium.java_client.android.AndroidDriver
 import org.openqa.selenium.remote.DesiredCapabilities
 import com.kms.katalon.core.mobile.driver.MobileDriverType
 
-
+/*
 // Set the Browserstack credentials: USERNAME and ACCESS_KEY
-String browserStackServerURL = "https://krupalsinhchavda2:yimZGY5qERyYqLKECGh8@hub-cloud.browserstack.com/wd/hub";
+String browserStackServerURL = "https://krupalsinhchavda1:rNvmAH9tMv1Uxaesnp7M@hub-cloud.browserstack.com/wd/hub";
 
 // Define Desired Capabilities
 DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -33,9 +33,12 @@ capabilities.setCapability("device", "Samsung Galaxy S10e");
 capabilities.setCapability("os_version", "9.0");
 
 // Define Appium server
-AppiumDriverManager.createMobileDriver(MobileDriverType.ANDROID_DRIVER, capabilities, new URL(browserStackServerURL));
+AppiumDriverManager.createMobileDriver(MobileDriverType.ANDROID_DRIVER, capabilities, new URL(browserStackServerURL));*/
 
 // Write your code here
+
+// Start Mobile Application
+Mobile.startApplication('bs://1a5d8e533534d4a28c65f60a023cf89244ef3274', true)
 
 // Enter login details
 Mobile.setText(findTestObject('Login/Txt_Username'), "manager@ccs", 10)

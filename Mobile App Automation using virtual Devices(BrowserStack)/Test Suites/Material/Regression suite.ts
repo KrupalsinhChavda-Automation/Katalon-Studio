@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Regression suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>08cc9124-5ab8-4ee1-a047-7577bb90eba6</testSuiteGuid>
+   <testCaseLink>
+      <guid>9bee16cc-7acf-477e-92dd-b7cafd912eef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Material/Create New Account</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3bdd4d8f-81e8-478b-ad3f-a076b3b91ac0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Material/CreateOne</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3bdd4d8f-81e8-478b-ad3f-a076b3b91ac0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>739a3f71-d5fb-4537-8769-77b2160db65b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3bdd4d8f-81e8-478b-ad3f-a076b3b91ac0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>a33da407-8b0e-448c-a172-917efd4f8a43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3bdd4d8f-81e8-478b-ad3f-a076b3b91ac0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>cc15c082-ce72-4414-8713-af5bf8fef4dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3bdd4d8f-81e8-478b-ad3f-a076b3b91ac0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mo Number</value>
+         <variableId>eae4b283-7d05-4b0e-928b-f2ad90ee0102</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3bdd4d8f-81e8-478b-ad3f-a076b3b91ac0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>68da011a-dacc-49e6-9679-88c25f1ce6c9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3bdd4d8f-81e8-478b-ad3f-a076b3b91ac0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Re-Password</value>
+         <variableId>fa1565d4-e3db-487c-89b6-a0c413cef903</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e69e3e4-78e8-4bca-89dd-b6591aee275a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Material/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0abb72c7-7981-4d5a-b92d-fa2e536b091d</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Material/Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0abb72c7-7981-4d5a-b92d-fa2e536b091d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>ea2715fe-f081-4156-b1f4-55a8c4105206</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0abb72c7-7981-4d5a-b92d-fa2e536b091d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>d3e89514-276a-4ad2-8b7f-9d07e0a37d2d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

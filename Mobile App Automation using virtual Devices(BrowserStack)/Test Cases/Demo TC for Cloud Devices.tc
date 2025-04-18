@@ -4,5 +4,6 @@
    <name>Demo TC for Cloud Devices</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7cafa56e-f5ba-4068-8ca5-fae802cbf64b</testCaseGuid>
 </TestCaseEntity>

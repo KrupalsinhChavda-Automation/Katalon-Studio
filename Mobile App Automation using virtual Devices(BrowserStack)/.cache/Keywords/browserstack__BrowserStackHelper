@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "C9F28DECAE738C062BD48806BF12DFB5",
+  "keywordClasses": [
+    {
+      "name": "browserstack.BrowserStackHelper",
+      "keywordMethods": [
+        {
+          "name": "updateSessionStatus",
+          "parameters": [
+            {
+              "name": "status",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "reason",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Updates the BrowserStack session status (pass/fail) with a reason\r\n\t * @param status - \u0027passed\u0027 or \u0027failed\u0027\r\n\t * @param reason - reason text to show\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
