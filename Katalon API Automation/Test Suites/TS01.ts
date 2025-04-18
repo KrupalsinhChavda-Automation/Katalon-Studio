@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS01</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b58fbf55-5544-4ca9-98fd-1b8a8a7702de</testSuiteGuid>
+   <testCaseLink>
+      <guid>6a8f4bc4-6535-40ac-a5c9-6b4df102cbf8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_POST_ComplexUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0dfa4120-605f-4d34-8424-ed168519c359</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CreateData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0dfa4120-605f-4d34-8424-ed168519c359</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>1488ed6b-4d17-4a37-b98f-4b06d48ae57e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0dfa4120-605f-4d34-8424-ed168519c359</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>565bd54f-773a-40a2-b8b6-e219a92a4610</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>887b80f7-0744-40e1-b7c5-0704972ff8fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_PUT_ComplexUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fb21f7b6-8fed-4d74-8d61-b3e15e228f87</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PostData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fb21f7b6-8fed-4d74-8d61-b3e15e228f87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>body</value>
+         <variableId>46cfa456-5fc0-45e4-8cbc-f91e60ece759</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fb21f7b6-8fed-4d74-8d61-b3e15e228f87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>da0b5bd5-95e8-43e0-bdf8-897b33d9f8dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fb21f7b6-8fed-4d74-8d61-b3e15e228f87</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userId</value>
+         <variableId>58218bbf-d24d-4d60-9004-2be53067d795</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4749be68-f3d5-4783-924f-e755e70507bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Get_User</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f85d97a2-5899-46ce-8609-ff3758f03f12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_POST_CreatePost</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d98a331-82ff-4afe-afab-227134e8e986</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_PUT_UpdatePost</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02ca28de-cd31-49f8-b70b-560fd04c67aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_AuthLogin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69772796-1210-4d16-a7dd-ed6e5e0c390e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_DELETE_DeletePost</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

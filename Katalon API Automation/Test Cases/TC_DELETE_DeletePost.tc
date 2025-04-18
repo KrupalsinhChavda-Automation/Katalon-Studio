@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DELETE_DeletePost</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c13052cd-adda-411a-8268-155f98205f4d</testCaseGuid>
+</TestCaseEntity>
