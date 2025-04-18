@@ -60,4 +60,4 @@ WebUI.click(findTestObject('Object Repository/Products/Tshirts'))
 'Verify title'
 WebUI.verifyElementText(findTestObject('Object Repository/Products/Category_Title'), "MEN - TSHIRTS PRODUCTS")
 
-WebUI.closeBrowser();
+//WebUI.closeBrowser();

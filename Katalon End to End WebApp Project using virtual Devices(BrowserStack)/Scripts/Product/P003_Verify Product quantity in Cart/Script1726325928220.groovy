@@ -61,4 +61,4 @@ WebUI.click(findTestObject('Object Repository/Home Page/Menu_Cart'))
 'Verify Quantity of Product 01'
 WebUI.verifyElementText(findTestObject('Object Repository/Products/verify_Quantity'), '4')
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

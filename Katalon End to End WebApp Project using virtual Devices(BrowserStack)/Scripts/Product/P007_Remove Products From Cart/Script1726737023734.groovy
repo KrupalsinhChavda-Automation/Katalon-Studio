@@ -74,4 +74,4 @@ def verifyempty= WebUI.getText(findTestObject('Object Repository/Products/verify
 
 WebUI.verifyMatch(verifyempty, "Cart is empty! Click here to buy products.", false)
 
-WebUI.closeBrowser();
+//WebUI.closeBrowser();

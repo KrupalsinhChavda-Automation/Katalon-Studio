@@ -60,4 +60,4 @@ WebUI.click(findTestObject('Object Repository/Products/btn_Submit'))
 'Verify success message "Thank you for your review."'
 WebUI.verifyElementText(findTestObject('Object Repository/Products/Submited_Review'), "Thank you for your review.")
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

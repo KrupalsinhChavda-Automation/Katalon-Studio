@@ -67,4 +67,4 @@ for (WebElement product : products) {
 	// Print or log the product details
 	WebUI.comment('Product Name: ' + productName)
 }
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

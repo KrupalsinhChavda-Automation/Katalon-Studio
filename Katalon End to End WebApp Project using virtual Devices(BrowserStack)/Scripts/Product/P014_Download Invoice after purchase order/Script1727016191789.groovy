@@ -253,4 +253,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/Account Info/verify_Ac
 
 'Click "Continue" button'
 WebUI.click(findTestObject('Object Repository/Account Info/btn_Continue'))
-

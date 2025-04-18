@@ -55,4 +55,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/Cart/Quantity01'), '1'
 'Verify Total of Product 01'
 WebUI.verifyElementText(findTestObject('Object Repository/Cart/Total01'), 'Rs. 500')
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
