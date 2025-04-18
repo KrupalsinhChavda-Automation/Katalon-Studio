@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "79F2FF60D47BC25DC1A0071D2B00337D",
+  "keywordClasses": [
+    {
+      "name": "utils.TokenExtractor",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

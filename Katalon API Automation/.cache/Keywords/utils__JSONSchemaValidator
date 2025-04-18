@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5325697A9F7529BA48AC11371B0FCD82",
+  "keywordClasses": [
+    {
+      "name": "utils.JSONSchemaValidator",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
